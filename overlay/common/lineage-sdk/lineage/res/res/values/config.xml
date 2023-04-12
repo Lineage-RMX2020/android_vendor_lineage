@@ -31,4 +31,13 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
         <item>com.google.android.setupwizard/com.google.android.setupwizard.update.OtaUpdateActivity</item>
     </string-array>
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
+    <!-- Defines the actions shown in advanced reboot submenu -->
+    <string-array name="config_restartActionsList">
+        <item>restart</item>
+        <item>restart_recovery</item>
+        <item>restart_bootloader</item>
+        <item>restart_fastboot</item>
+    </string-array>
 </resources>
